@@ -29,7 +29,11 @@ h1 {
 h2 {
   margin: 0 0 10px 0;
 }
-.nyuw i {
+.nyuw .links i {
   color: white;
   font-size: 25px;
+  padding: 0 2px;
+}
+.nyuw .links i:hover {
+  color: #e58958;
 }
