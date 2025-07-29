@@ -1,0 +1,21 @@
+body {
+  background-color: #214230;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nyuw .avatar {
+  height: 100px;
+  border-radius: 100%;
+  border: 2px solid white;
+  background: white;
+}
