@@ -1,37 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>nyuw.dev</title>
-<style>
-body {
-  background-color: #214230;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  overflow: hidden;
-}
-h1 {
-  color: white;
-  font-size: 80px;
-}
-.nyuw {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-}
-.nyuw img {
-  height: 100px;
-  border-radius: 100%;
-  border: 2px solid white;
-  background: white;
-}
-</style>
+  <title>nyuw.dev</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" />
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+  body {
+    background-color: #214230;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    font-family: "Raleway", sans-serif;
+    color: white;
+  }
+  h1 {
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nyuw .avatar {
+    height: 100px;
+    border-radius: 100%;
+    border: 2px solid white;
+    background: white;
+  }
+  </style>
 </head>
 <body>
-  <h1>Soon™</h1>
-  <div class="nyuw">
-    <a href="https://github.com/Nyuwb" target="_blank"><img src="https://raw.githubusercontent.com/Nyuwb/Nyuwb/main/nyuwKING.png" alt="Logo Nyuw" title="Accéder à mon profil Github"/></a>
+  <div class="container">
+    <div class="nyuw">
+      <img class="avatar" src="https://raw.githubusercontent.com/Nyuwb/Nyuwb/main/nyuwKING.png" alt="Logo Nyuw" title="Accéder à mon profil Github"/>
+      <h1>Fabien Ehrlich</h1>
+      <h2>Software Engineer</h2>
+      <a href="https://github.com/Nyuwb" target="_blank"><i class="fa-brands fa-github"></i></a>
+    </div>
   </div>
 </body>
 </html>
