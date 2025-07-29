@@ -1,4 +1,5 @@
-# GitHub Pages
+# nyuw.dev
 
-For the moment, it's only a copy of the temporary page from [nyuw.dev](https://nyuw.dev).  
-I don't know what I will do with it...
+This is my personal GitHub Page.
+
+🔗 Visit it here: [https://nyuw.dev](https://nyuw.dev)
