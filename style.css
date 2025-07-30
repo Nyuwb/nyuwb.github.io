@@ -1,0 +1,39 @@
+body {
+  background-color: #214230;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nyuw {
+  text-align: center;
+}
+.nyuw .avatar {
+  height: 100px;
+  border-radius: 100%;
+  border: 2px solid white;
+  background: white;
+}
+h1 {
+  margin: 5px 0;
+}
+h2 {
+  margin: 0 0 10px 0;
+}
+.nyuw .links i {
+  color: white;
+  font-size: 25px;
+  padding: 0 2px;
+}
+.nyuw .links i:hover {
+  color: #e58958;
+}
